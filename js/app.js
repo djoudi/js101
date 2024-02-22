@@ -117,3 +117,17 @@ var x=2 ,
 // }else{
 //     console.log("please enter Number")
 // }
+
+// var num3 = parseInt(prompt("please enter your Num"))
+// if(num3%2 ==0) console.log("Pair");
+// else  console.log("Impair");
+
+var tab1 = Array(45,"Ecoin",36,true)
+var tab2 = [25,36,9,7]
+
+var tab3 = [15,[12,5],[[150,200],36]]
+
+// console.log(tab1[3]);
+// console.log(tab3[2][0][1]);
+// console.log(typeof tab1);
+console.log(typeof null);

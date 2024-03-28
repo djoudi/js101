@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 60%;
+    height: 70vh;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+#tw{
+    width: 80%;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: auto;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.not{
+    cursor: not-allowed;
+    pointer-events: all;
+}
+
+#cmpt{
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #000;
+
+}

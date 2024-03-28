@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 60%;
+    padding: 7px;
+    margin: 50px auto;
+    background-color: #a8a5a5;
+}
+
+.user,.password {
+    width: 60%;
+    margin: 15px auto;
+    padding: 7px;
+}
+
+input{
+    padding: 5px;
+}
+
+button{
+    padding: 7px;
+    text-align: center;
+color: azure;
+background-color: #2855aa;}
+
+
+.msg{
+    display: none;
+}

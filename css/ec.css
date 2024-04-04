@@ -46,3 +46,12 @@ button:nth-child(2){
     align-items: center;
     justify-content: center;
 }
+
+.alert{
+    padding: 5px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    display: none;
+}

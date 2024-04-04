@@ -15,6 +15,22 @@ btns[0].onclick = function () {
    cart.innerText = ++cpt
    localStorage.setItem("cp",cpt)
    localStorage.setItem("nom",namep)
+   let al = document.querySelector('.alert')
+   al.style.display = 'block'
+
+
+   let stmout = setTimeout(function () {
+    let num = 1
+      let handel = setInterval(function () {
+        num = num - 0.1
+         al.style.opacity = num 
+         if(num <= 0){
+            al.style.display = 'none'
+            clearInterval(handel)
+         }
+      },50)
+    //al.style.display = 'none'
+   },1000)
 
 }
 

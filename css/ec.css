@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+button{
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 100%;
+    border: none;
+
+}
+
+button:nth-child(1){
+    background-color: red;
+    margin-left: 50px;
+}
+
+
+button:nth-child(2){
+    background-color: green;
+    margin-left: 7px;
+}
+
+.cart{
+    color: bisque;
+    width: 15%;
+    margin: auto;
+    padding: 15px;
+    background-color: #d70bda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart2{
+    color: bisque;
+    width: 15%;
+    margin: auto;
+    padding: 15px;
+    background-color: #2a0bda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

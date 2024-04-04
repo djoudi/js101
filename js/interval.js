@@ -11,3 +11,5 @@ up.onclick = function(){
         cpt++
     },1000)
 }
+
+
